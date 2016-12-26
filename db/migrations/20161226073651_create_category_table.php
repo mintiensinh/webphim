@@ -2,7 +2,7 @@
 
 use Phinx\Migration\AbstractMigration;
 
-class CreatePostsTable extends AbstractMigration
+class CreateCategoryTable extends AbstractMigration
 {
     /**
      * Change Method.
@@ -27,6 +27,13 @@ class CreatePostsTable extends AbstractMigration
      */
     public function change()
     {
-
+        $category = $this->table('category');
+        $category->addColumn('parent_id','string');
+        $category->addColumn('title','string');
+        $category->addColumn('level','string', ['null'=>true]);
+        $category->addColumn('deleted_at','datetime',['null'=>true]);
+        $category->addColumn('created_at','datetime',['null'=>true]);
+        $category->addColumn('updated_at','datetime',['null'=>true]);
+        $category->save();
     }
 }
