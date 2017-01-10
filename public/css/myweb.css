@@ -1,0 +1,45 @@
+.clear {
+    clear: both;
+}
+.navbar-default {
+    background-color: #424242;
+    /*border-color: #767676;*/
+    height: 28px;
+    color: #cdcdcd;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #cdcdcd;
+
+}
+.hear{
+	height: 111px;
+	background: #ececec;
+
+}
+.input-group {
+    position: relative;
+    border-collapse: separate;
+    margin-top: 30px;
+    width: 445px;
+    background: #79b260;
+    border: solid 2px #79b260;
+}
+.btn-default {
+    color: white;
+    background-color: #79b260;
+    border-color: #79b260;
+}
+.navbar-nav>li{
+		margin-left:40px;
+}
+.navbar-nav>li:first-child {
+	margin-left:0px;
+}
+.navbar-nav>li>a:hover{
+	background:#79b260;
+}
+#than{
+	margin-top: 20px;
+}
+
+

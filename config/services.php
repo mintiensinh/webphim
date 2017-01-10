@@ -34,5 +34,9 @@ return [
         'key' => env('STRIPE_KEY'),
         'secret' => env('STRIPE_SECRET'),
     ],
-
+    'facebook' => [
+        'client_id' => '664408503747058',
+        'client_secret' => 'bb2ca75e45b516330b9242ef887a6c5b',
+        'redirect' => 'http://webphim.dev/facebook/callback',
+    ],
 ];

@@ -166,9 +166,12 @@
             <!--search end-->
 
             <div class="menu-right">
-				<a href="{{ url('/logout') }}" style="text-decoration: none;margin:50px"
-					onclick="event.preventDefault();
-					document.getElementById('logout-form').submit();">Logout</a>
+
+                <div class="btn" style="margin-top: 10px; width: 100px; margin-right:50px; ">
+                    <a href="{{ url('/logout') }}" style="text-decoration: none"
+                    onclick="event.preventDefault();
+                    document.getElementById('logout-form').submit();">Logout</a>
+                </div>
 
 					<form id="logout-form" action="{{ url('/logout') }}" method="POST" style="display: none;">
 					{{ csrf_field() }}
