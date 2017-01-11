@@ -8,7 +8,7 @@ class Social extends Model
 {
 	public $table = "social";
     protected $fillable = [
-        'name', 'email','nickname','avatar','social_id'
+        'name', 'email','nickname','avatar','social_id','token'
     ];
     protected $hidden = [
         'token'

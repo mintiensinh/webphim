@@ -24,4 +24,7 @@ Route::get('/page', function(){
 Route::get('facebook/redirect', 'Auth\AuthController@redirectToProvider');
 Route::get('facebook/callback', 'Auth\AuthController@handleProviderCallback');
 
+Route::get('google/redirect', 'Auth\AuthController@redirectgoogle');
+Route::get('google/callback', 'Auth\AuthController@callbackgoogle');
+
 

@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"re",
+				"redirect"
+			],
+			[
+				"col",
+				"col-sm-12"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"nav",
+				"navbar-header"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"with",
+				"width: 〔property〕"
+			],
+			[
 				"R",
 				"range"
 			],
@@ -160,20 +184,12 @@
 				"bs3-input:search\tbs3-input-search"
 			],
 			[
-				"mar",
-				"margin-left"
-			],
-			[
 				"di",
 				"div\tTag"
 			],
 			[
 				"bs3",
 				"bs3-navbar\tbs3-navbar"
-			],
-			[
-				"ba",
-				"background-color"
 			],
 			[
 				"he",
@@ -194,10 +210,6 @@
 			[
 				"ma",
 				"margin-top"
-			],
-			[
-				"re",
-				"request"
 			],
 			[
 				"fun",
@@ -502,51 +514,11 @@
 			[
 				"up",
 				"updated_at"
-			],
-			[
-				"star",
-				"$start〔variable〕"
-			],
-			[
-				"arr",
-				"$array_text〔variable〕"
-			],
-			[
-				"sta",
-				"$start〔variable〕"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "routes/test.php",
-			"settings":
-			{
-				"buffer_size": 153,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/Providers/BroadcastServiceProvider.php",
-			"settings":
-			{
-				"buffer_size": 543,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "<script type=\"text/javascript\">\n$.ajax({\n\turl: '/path/to/file',\n\ttype: 'default GET (Other values: POST)',\n\tdataType: 'default: Intelligent Guess (Other values: xml, json, script, or html)',\n\tdata: {param1: 'value1'},\n})\n.done(function() {\n\tconsole.log(\"success\");\n})\n.fail(function() {\n\tconsole.log(\"error\");\n})\n.always(function() {\n\tconsole.log(\"complete\");\n});\n\n</script>\n<!DOCTYPE html>\n<html>\n<head>\n\t<title>home</title>\n\t<!-- Latest compiled and minified CSS & JS -->\n\t<link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css\" integrity=\"sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7\" crossorigin=\"anonymous\">\n\t<script src=\"//code.jquery.com/jquery.js\"></script>\n\t<script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js\" integrity=\"sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS\" crossorigin=\"anonymous\"></script>\n\t<link rel=\"stylesheet\" type=\"text/css\" href=\"{{asset('css/myweb.css')}}\">\n</head>\n<body>\n\t<nav class=\"nav\" role=\"navigation\">\n\t\t<div class=\"container\">\n\t\t\t<div class=\"collapse navbar-collapse navbar-ex1-collapse\">\n\t\t\t\t<ul class=\"nav navbar-nav navbar-right\">\n\t\t\t\t\t<li><a href=\"#\">Sign in</a></li>\n\t\t\t\t\t<li><a href=\"#\">My Account</a></li>\n\t\t\t\t\t<li><a href=\"#\">Order Status</a></li>\n\t\t\t\t\t<li><a href=\"#\">Help</a></li>\n\t\t\t\t</ul>\n\t\t\t</div>\n\t\t</div>\n\t</nav>\n\n\t<nav class=\"hear\" role=\"navigation\">\n\t\t<div class=\"container\">\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-lg-4\">\n\t\t\t\t\t<div class=\"navbar-header\">\n\t\t\t\t\t\t<a class=\"navbar-brand\" href=\"#\"><img src=\"{{asset('images/min/logo.png')}}\"></a>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-lg-4\">\n\t\t\t\t\t<form class=\"navbar-form\" role=\"search\">\n\t\t\t\t\t\t<div class=\"input-group\">\n\t\t\t\t            <input type=\"text\" class=\"form-control\" name=\"search\">\n\t\t\t\t            <div class=\"input-group-btn\">\n\t\t\t\t                <button class=\"btn btn-default\" type=\"submit\"><i class=\"glyphicon glyphicon-search\"></i> Search</button>\n\t\t\t\t            </div>\n\t\t\t\t        </div>\n\t\t            </form>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"col-lg-4\"></div>\n\t\t</div>\n\n\t</nav>\n\n\t<div class=\"container\">\n\t\t\t<ul class=\"nav navbar-nav\">\n\t\t\t\t<li class=\"active\"><a href=\"#\">Computers</a></li>\n\t\t\t\t<li><a href=\"#\">Cooking</a></li>\n\t\t\t\t<li><a href=\"#\">Education</a></li>\n\t\t\t\t<li><a href=\"#\">Fiction </a></li>\n\t\t\t\t<li><a href=\"#\">Health </a></li>\n\t\t\t\t<li><a href=\"#\">Mathematics</a></li>\n\t\t\t\t<li><a href=\"#\">Medical </a></li>\n\t\t\t\t<li><a href=\"#\">Reference</a></li>\n\t\t\t\t<li><a href=\"#\">Science</a></li>\n\t\t\t</ul>\n\t</div>\n\n\t<div class=\"container\">\n\t\t<div id=\"carousel-example-generic\" class=\"carousel slide\" data-ride=\"carousel\">\n\t\t<!-- Indicators -->\n\t\t\t\t<ol class=\"carousel-indicators\">\n\t\t\t\t    <li data-target=\"#carousel-example-generic\" data-slide-to=\"0\" class=\"active\"></li>\n\t\t\t\t    <li data-target=\"#carousel-example-generic\" data-slide-to=\"1\"></li>\n\t\t\t\t    <li data-target=\"#carousel-example-generic\" data-slide-to=\"2\"></li>\n\t\t\t\t</ol>\n\t\t<!-- Wrapper for slides -->\n\t\t\t\t<div class=\"carousel-inner\">\n\t\t\t    \t<div class=\"item active\">\n\t\t\t    \t\t<img src=\"http://mdbootstrap.com/img/Photos/Slides/img%20(27).jpg\" alt=\"...\">\n\t\t\t\t    \t<div class=\"carousel-caption\">\n\t\t\t\t    \t\t<h3>Caption Text</h3>\n\t\t\t\t    \t</div>\n\t\t\t    \t</div>\n\t\t\t\t    <div class=\"item\">\n\t\t\t\t      \t<img src=\"http://mdbootstrap.com/img/Photos/Slides/img%20(27).jpg\" alt=\"...\">\n\t\t\t\t      \t<div class=\"carousel-caption\">\n\t\t\t\t      \t\t<h3>Caption Text</h3>\n\t\t\t\t      \t</div>\n\t\t\t\t    </div>\n\t\t\t\t    <div class=\"item\">\n\t\t\t\t    \t<img src=\"http://mdbootstrap.com/img/Photos/Slides/img%20(27).jpg\" alt=\"...\">\n\t\t\t\t    \t<div class=\"carousel-caption\">\n\t\t\t\t      \t\t<h3>Caption Text</h3>\n\t\t\t\t    \t</div>\n\t\t\t\t    </div>\n\t\t\t  \t</div>\n\n\t\t\t  <!-- Controls -->\n\t\t\t\t<a class=\"left carousel-control\" href=\"#carousel-example-generic\" role=\"button\" data-slide=\"prev\">\n\t\t\t\t\t<span class=\"glyphicon glyphicon-chevron-left\"></span>\n\t\t\t\t</a>\n\t\t\t\t<a class=\"right carousel-control\" href=\"#carousel-example-generic\" role=\"button\" data-slide=\"next\">\n\t\t\t\t\t<span class=\"glyphicon glyphicon-chevron-right\"></span>\n\t\t\t\t</a>\n\t\t\t</div> <!-- Carousel -->\n\t</div>\n\n\t<div class=\"container\">\n\t\t<div class=\"row\" id=\"than\">\n\t\t\t<div class=\"col-xs-2 col-sm-2 col-md-2 col-lg-2\">\n\t\t\t\t<div class=\"list-group\">\n\t\t\t\t\t<button type=\"button\" class=\"list-group-item\">Cras justo odio</button>\n\t\t\t\t\t<button type=\"button\" class=\"list-group-item\">Dapibus ac facilisis in</button>\n\t\t\t\t\t<button type=\"button\" class=\"list-group-item\">Morbi leo risus</button>\n\t\t\t\t\t<button type=\"button\" class=\"list-group-item\">Porta ac consectetur ac</button>\n\t\t\t\t\t<button type=\"button\" class=\"list-group-item\">Vestibulum at eros</button>\n\t\t\t\t</div>\n\t\t\t</div>\n\n\t\t\t<div class=\"col-xs-10 col-sm-10 col-md-10 col-lg-10\">\n\t\t\t\t<div class=\"row\">\n\t\t\t\t\t<ul class=\"nav nav-tabs\">\n\t\t\t\t\t\t<li role=\"presentation\" class=\"active\"><a href=\"#\">Home</a></li>\n\t\t\t\t\t\t<li role=\"presentation\"><a href=\"#\">Profile</a></li>\n\t\t\t\t\t\t<li role=\"presentation\"><a href=\"#\">Messages</a></li>\n\t\t\t\t\t</ul>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"row\">\n\t\t\t\t\t<div class=\"col-xs-3 col-sm-3 col-md-3 col-lg-3\">\n\t\t\t\t\t    <div class=\"thumbnail\">\n\t\t\t\t\t        <img src=\"...\" alt=\"...\">\n\t\t\t\t\t        <div class=\"caption\">\n\t\t\t\t\t\t        <h3>Thumbnail label</h3>\n\t\t\t\t\t\t        <p>...</p>\n\t\t\t\t\t\t        <p><a href=\"#\" class=\"btn btn-primary\" role=\"button\">Button</a> <a href=\"#\" class=\"btn btn-default\" role=\"button\">Button</a></p>\n\t\t\t\t\t      \t</div>\n\t\t\t\t\t    </div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"col-xs-3 col-sm-3 col-md-3 col-lg-3\">\n\t\t\t\t\t    <div class=\"thumbnail\">\n\t\t\t\t\t        <img src=\"...\" alt=\"...\">\n\t\t\t\t\t        <div class=\"caption\">\n\t\t\t\t\t\t        <h3>Thumbnail label</h3>\n\t\t\t\t\t\t        <p>...</p>\n\t\t\t\t\t\t        <p><a href=\"#\" class=\"btn btn-primary\" role=\"button\">Button</a> <a href=\"#\" class=\"btn btn-default\" role=\"button\">Button</a></p>\n\t\t\t\t\t      \t</div>\n\t\t\t\t\t   \t</div>\n\t\t\t\t\t</div>\n\t\t\t\t    <div class=\"col-xs-3 col-sm-3 col-md-3 col-lg-3\">\n\t\t\t\t\t    <div class=\"thumbnail\">\n\t\t\t\t\t        \t<img src=\"...\" alt=\"...\">\n\t\t\t\t\t        \t<div class=\"caption\">\n\t\t\t\t\t\t        <h3>Thumbnail label</h3>\n\t\t\t\t\t\t        <p>...</p>\n\t\t\t\t\t\t        <p><a href=\"#\" class=\"btn btn-primary\" role=\"button\">Button</a> <a href=\"#\" class=\"btn btn-default\" role=\"button\">Button</a></p>\n\t\t\t\t\t      \t\t</div>\n\t\t\t\t\t    \t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"col-xs-3 col-sm-3 col-md-3 col-lg-3\">\n\t\t\t\t\t    <div class=\"thumbnail\">\n\t\t\t\t\t        \t<img src=\"...\" alt=\"...\">\n\t\t\t\t\t        \t<div class=\"caption\">\n\t\t\t\t\t\t        <h3>Thumbnail label</h3>\n\t\t\t\t\t\t        <p>...</p>\n\t\t\t\t\t\t        <p><a href=\"#\" class=\"btn btn-primary\" role=\"button\">Button</a> <a href=\"#\" class=\"btn btn-default\" role=\"button\">Button</a></p>\n\t\t\t\t\t      \t\t</div>\n\t\t\t\t\t    \t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"col-xs-3 col-sm-3 col-md-3 col-lg-3\">\n\t\t\t\t\t    <div class=\"thumbnail\">\n\t\t\t\t\t        \t<img src=\"...\" alt=\"...\">\n\t\t\t\t\t        \t<div class=\"caption\">\n\t\t\t\t\t\t        <h3>Thumbnail label</h3>\n\t\t\t\t\t\t        <p>...</p>\n\t\t\t\t\t\t        <p><a href=\"#\" class=\"btn btn-primary\" role=\"button\">Button</a> <a href=\"#\" class=\"btn btn-default\" role=\"button\">Button</a></p>\n\t\t\t\t\t      \t\t</div>\n\t\t\t\t\t    </div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\t<div role=\"tabpanel\">\n\t\t<!-- Nav tabs -->\n\t\t<ul class=\"nav nav-tabs\" role=\"tablist\">\n\t\t\t<li role=\"presentation\" class=\"active\">\n\t\t\t\t<a href=\"#home\" aria-controls=\"home\" role=\"tab\" data-toggle=\"tab\">home</a>\n\t\t\t</li>\n\t\t\t<li role=\"presentation\">\n\t\t\t\t<a href=\"#tab\" aria-controls=\"tab\" role=\"tab\" data-toggle=\"tab\">tab</a>\n\t\t\t</li>\n\t\t</ul>\n\n\t\t<!-- Tab panes -->\n\t\t<div class=\"tab-content\">\n\t\t\t<div role=\"tabpanel\" class=\"tab-pane active\" id=\"home\">home</div>\n\t\t\t<div role=\"tabpanel\" class=\"tab-pane\" id=\"tab\">tab</div>\n\t\t</div>\n\t</div>\n</body>\n</html>",
-			"file": "resources/views/home.blade.php",
-			"file_size": 7596,
-			"file_write_time": 131284205240895891,
-			"settings":
-			{
-				"buffer_size": 7719,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -679,19 +651,42 @@
 	[
 		"/F/webphim",
 		"/F/webphim/app",
-		"/F/webphim/app/Console",
-		"/F/webphim/app/Models",
-		"/F/webphim/app/Providers",
-		"/F/webphim/resources",
-		"/F/webphim/resources/views",
-		"/F/webphim/routes"
+		"/F/webphim/app/Http",
+		"/F/webphim/app/Http/Controllers",
+		"/F/webphim/app/Http/Controllers/Auth",
+		"/F/webphim/routes",
+		"/F/webphim/vendor",
+		"/F/webphim/vendor/laravel"
 	],
 	"file_history":
 	[
+		"/F/webphim/routes/web.php",
+		"/F/webphim/app/Http/Controllers/Auth/AuthController.php",
+		"/F/webphim/app/Social.php",
+		"/F/webphim/vendor/laravel/socialite/composer.json",
+		"/F/webphim/database/migrations/2017_01_10_083648_create_social_table.php",
+		"/F/webphim/config/services.php",
+		"/F/webphim/resources/views/auth/login.blade.php",
+		"/C/Users/Laptop88/Desktop/cacert.pem",
+		"/F/webphim/routes/test.php",
+		"/F/webphim/storage/logs/laravel-2017-01-10.log",
+		"/F/webphim/vendor/laravel/framework/src/Illuminate/Http/Request.php",
+		"/F/webphim/composer.json",
+		"/F/webphim/config/app.php",
+		"/F/webphim/resources/views/admin/index.blade.php",
+		"/F/webphim/resources/views/admin/home.blade.php",
+		"/F/webphim/app/Http/Controllers/Auth/HomeController.php",
+		"/F/webphim/resources/views/admin/login.blade.php",
+		"/F/webphim/vendor/laravel/socialite/src/Contracts/Factory.php",
+		"/F/webphim/xdebug.sublime-project",
+		"/F/webphim/resources/views/home.blade.php",
+		"/F/webphim/public/css/myweb.css",
+		"/F/webphim/storage/logs/laravel.log",
 		"/F/webphim/app/Providers/RouteServiceProvider.php",
+		"/F/webphim/.env",
+		"/F/webphim/app/Providers/BroadcastServiceProvider.php",
 		"/F/webphim/app/Http/Kernel.php",
 		"/F/webphim/vendor/laravel/framework/src/Illuminate/Routing/Router.php",
-		"/F/webphim/resources/views/home.blade.php",
 		"/F/webphim/app/Http/Controllers/HomeController.php",
 		"/C/Users/Laptop88/AppData/Roaming/Sublime Text 3/Packages/SyncedSideBar/SyncedSideBar.sublime-settings",
 		"/C/Users/Laptop88/AppData/Roaming/Sublime Text 3/Packages/User/SyncedSideBar.sublime-settings",
@@ -700,7 +695,6 @@
 		"/F/webphim/resources/views/welcome.blade.php",
 		"/F/webphim/public/css/clndr.css",
 		"/F/webphim/app/Http/Controllers/Controller.php",
-		"/F/webphim/xdebug.sublime-project",
 		"/F/webphim/app/Http/Middleware/RedirectIfAuthenticated.php",
 		"/C/Users/Laptop88/AppData/Roaming/Sublime Text 3/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
 		"/C/Users/Laptop88/AppData/Roaming/Sublime Text 3/Packages/User/SublimeCodeIntel.sublime-settings",
@@ -727,7 +721,6 @@
 		"/F/xampp/htdocs/ps_web/app/Http/Controllers/Client/PlaygroundController.php",
 		"/F/xampp/htdocs/ps_web/app/Models/FacilityBasic.php",
 		"/F/xampp/htdocs/ps_web/app/Models/Playground.php",
-		"/F/webphim/routes/web.php",
 		"/F/xampp/htdocs/ps_web/resources/views/client/module/setting_basic_setting.blade.php",
 		"/F/xampp/htdocs/ps_web/resources/views/client/module/setting.blade.php",
 		"/F/xampp/htdocs/ps_web/app/Http/Controllers/Client/ModuleController.php",
@@ -766,7 +759,6 @@
 		"/F/xampp/htdocs/ps_web/resources/views/streetcontrol/defects/index.blade.php",
 		"/F/xampp/htdocs/ps_web/app/Http/Controllers/Streetcontrol/DefectController.php",
 		"/F/xampp/htdocs/ps_web/resources/views/partials/alert.blade.php",
-		"/F/webphim/storage/logs/laravel.log",
 		"/F/webphim/app/Http/Controllers/Auth/LoginController.php",
 		"/F/webphim/public/js/easypiechart/easypiechart-init.js",
 		"/F/webphim/public/js/ckeditor/ckeditor.js",
@@ -774,10 +766,7 @@
 		"/C/Users/Laptop88/Desktop/1.php",
 		"/F/webphim/resources/views/admin/index1.blade.php",
 		"/F/webphim/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php",
-		"/F/webphim/resources/views/admin/login.blade.php",
 		"/F/webphim/app/Models/User.php",
-		"/F/webphim/resources/views/admin/index.blade.php",
-		"/F/webphim/.env",
 		"/F/webphim/app/User.php",
 		"/F/webphim/app/Http/Controllers/LoginController.php",
 		"/F/webphim/routes/LoginController.php",
@@ -798,28 +787,11 @@
 		"/F/webphim/db/migrations/20161226073651_create_category_table.php",
 		"/F/webphim/db/migrations/20161226073536_create_author_table.php",
 		"/F/webphim/db/migrations/20161226072154_create_actor_table.php",
-		"/F/webphim/db/migrations/20161226041229_create_users_table.php",
-		"/F/webphim/db/migrations/20161223094549_create_posts_table.php",
-		"/F/webphim/phinx.yml",
-		"/F/webphim/composer.json",
-		"/F/webphim/.env.example",
-		"/F/webphim/config/app.php",
-		"/F/webphim/vendor/autoload.php",
-		"/F/webphim/public/index.php",
-		"/F/laravel.dev/composer.json",
-		"/F/laravel.dev/phpunit.xml",
-		"/F/laravel.dev/phinx.yml",
-		"/F/laravel.dev/config/app.php",
-		"/F/laravel.dev/vendor/laravel/framework/src/Illuminate/Foundation/ComposerScripts.php",
-		"/F/laravel.dev/database/migrations/2016_12_22_092805_create_video_table.php",
-		"/F/laravel.dev/database/migrations/2016_12_23_030306_create_actor_video_table.php",
-		"/F/laravel.dev/database/migrations/2016_12_22_100355_create_country_table.php",
-		"/F/laravel.dev/routes/web.php",
-		"/F/laravel.dev/database/migrations/2016_12_23_030227_create_country_video_table.php"
+		"/F/webphim/db/migrations/20161226041229_create_users_table.php"
 	],
 	"find":
 	{
-		"height": 36.0
+		"height": 44.0
 	},
 	"find_in_files":
 	{
@@ -836,6 +808,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"video",
+			"video11",
+			"log",
 			"mapTestRoutes",
 			"router",
 			"5",
@@ -960,10 +935,7 @@
 			"gaming_device_group",
 			"Basic ",
 			"Commune",
-			"defect_group_option",
-			"cityModule",
-			"pg",
-			"activeMenuControltour"
+			"defect_group_option"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -978,105 +950,13 @@
 		"show_context": false,
 		"use_buffer2": true,
 		"whole_word": false,
-		"wrap": true
+		"wrap": false
 	},
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "routes/test.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 153,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								153,
-								153
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"open_with_edit": true,
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/Providers/BroadcastServiceProvider.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 543,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								115,
-								115
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "resources/views/home.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7719,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								199,
-								205
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1132,6 +1012,30 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"migrationsocial",
+				"database\\migrations\\2017_01_10_083648_create_social_table.php"
+			],
+			[
+				"illuminate/http/request.php",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Http\\Request.php"
+			],
+			[
+				"adminindex",
+				"resources\\views\\admin\\index.blade.php"
+			],
+			[
+				"adminhome",
+				"resources\\views\\admin\\home.blade.php"
+			],
+			[
+				"homecontroller",
+				"app\\Http\\Controllers\\Auth\\HomeController.php"
+			],
+			[
+				"css/myweb.css",
+				"public\\css\\myweb.css"
+			],
 			[
 				"illuminateroutingrouter",
 				"vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php"
@@ -1619,30 +1523,6 @@
 			[
 				"comm",
 				"app\\Helpers\\CommonHelper.php"
-			],
-			[
-				"objec",
-				"app\\Http\\Controllers\\Client\\ObjectController.php"
-			],
-			[
-				"companyde",
-				"resources\\views\\client\\company\\detail.blade.php"
-			],
-			[
-				"compa",
-				"app\\Models\\Company.php"
-			],
-			[
-				"module",
-				"app\\Http\\Controllers\\Client\\ModuleController.php"
-			],
-			[
-				"company",
-				"app\\Models\\Company.php"
-			],
-			[
-				"textmodule",
-				"app\\Http\\Controllers\\Client\\TextModuleController.php"
 			]
 		],
 		"width": 0.0
@@ -1677,7 +1557,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 409.0,
+	"side_bar_width": 377.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

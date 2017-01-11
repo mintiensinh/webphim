@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:fb='http://www.facebook.com/2008/fbml'>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
@@ -21,6 +21,20 @@
   <script src="js/html5shiv.js"></script>
   <script src="js/respond.min.js"></script>
   <![endif]-->
+<script type="text/javascript">
+        // Get rid of the Facebook residue hash in the URI
+        // Must be done in JS cuz hash only exists client-side
+        // IE and Chrome version of the hack
+        if (String(window.location.hash).substring(0,1) == "#") {
+                window.location.hash = "";
+                window.location.href=window.location.href.slice(0, -1);
+                }
+        // Firefox version of the hack
+        if (String(location.hash).substring(0,1) == "#") {
+                location.hash = "";
+                location.href=location.href.substring(0,location.href.length-3);
+                }
+</script>
 </head>
 
 <body class="sticky-header">

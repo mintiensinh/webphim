@@ -1,6 +1,6 @@
 </script>
 <!DOCTYPE html>
-<html>
+<html xmlns:fb='http://www.facebook.com/2008/fbml'>
 <head>
 	<title>home</title>
 	<!-- Latest compiled and minified CSS & JS -->
@@ -8,6 +8,20 @@
 	<script src="//code.jquery.com/jquery.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" href="{{asset('css/myweb.css')}}">
+	<script type="text/javascript">
+        // Get rid of the Facebook residue hash in the URI
+        // Must be done in JS cuz hash only exists client-side
+        // IE and Chrome version of the hack
+        if (String(window.location.hash).substring(0,1) == "#") {
+                window.location.hash = "";
+                window.location.href=window.location.href.slice(0, -1);
+                }
+        // Firefox version of the hack
+        if (String(location.hash).substring(0,1) == "#") {
+                location.hash = "";
+                location.href=location.href.substring(0,location.href.length-3);
+                }
+    </script>
 </head>
 <body>
 	<nav class="nav" role="navigation">

@@ -81,5 +81,7 @@
     </div>
     <!-- Scripts -->
     <script src="/js/app.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.15.0/additional-methods.min.js"></script>
+
 </body>
 </html>

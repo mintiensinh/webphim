@@ -39,4 +39,9 @@ return [
         'client_secret' => 'bb2ca75e45b516330b9242ef887a6c5b',
         'redirect' => 'http://webphim.dev/facebook/callback',
     ],
+    'google' => [
+        'client_id' => '739357586311-17so7t900ig3p4chjhs3pl52c9ovjamp.apps.googleusercontent.com',
+        'client_secret' => 'dE60wxZivl8j62t_PkRoVyf2',
+        'redirect' => 'http://webphim.dev/google/callback',
+    ],
 ];
