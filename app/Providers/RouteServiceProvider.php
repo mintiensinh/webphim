@@ -38,7 +38,7 @@ class RouteServiceProvider extends ServiceProvider
         $this->mapApiRoutes();
 
         $this->mapWebRoutes();
-        $router->group(['namespace' => $this->namespace], function ($router) {
+        $router->group(['middleware'=>'web','namespace' => $this->namespace], function ($router) {
             require app_path('../routes/test.php');
         });
 

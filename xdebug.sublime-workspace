@@ -4,8 +4,104 @@
 		"selected_items":
 		[
 			[
+				"View",
+				"View::render\tRender a view with some data"
+			],
+			[
+				"V",
+				"PDF_get_value"
+			],
+			[
+				"Ha",
+				"Helper::array_prepend\tPush an item onto the beginning of an array."
+			],
+			[
+				"Bla",
+				"Blade::elseif\tBlade @elseif"
+			],
+			[
+				"B",
+				"Blade::can\tBlade @can"
+			],
+			[
+				"text",
+				"textdomain"
+			],
+			[
+				"ima",
+				"$imageName〔variable〕"
+			],
+			[
+				"me",
+				"method"
+			],
+			[
+				"bs3-input",
+				"bs3-input:text:h\tbs3-input-text-h"
+			],
+			[
+				"bs3-table",
+				"bs3-table:striped\tbs3-table-striped"
+			],
+			[
+				"bs3-tab",
+				"bs3-table\tbs3-table"
+			],
+			[
+				"btn",
+				"btn-primary"
+			],
+			[
+				"class",
+				"class=〔attribute〕"
+			],
+			[
+				"bs3-for",
+				"bs3-form:label\tbs3-form-label"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"fo",
+				"foreach\tforeach …"
+			],
+			[
 				"re",
-				"redirect"
+				"request"
+			],
+			[
+				"has",
+				"hash_file"
+			],
+			[
+				"R",
+				"Request"
+			],
+			[
+				"public",
+				"public_path〔function〕"
+			],
+			[
+				"Ro",
+				"Route::post\tBasic Post Route."
+			],
+			[
+				"RO",
+				"Route::controllerAction\tBasic route to a controller action."
+			],
+			[
+				"admin",
+				"admin"
+			],
+			[
+				"ce",
+				"createdUser"
+			],
+			[
+				"b",
+				"bcsqrt"
 			],
 			[
 				"col",
@@ -26,10 +122,6 @@
 			[
 				"with",
 				"width: 〔property〕"
-			],
-			[
-				"R",
-				"range"
 			],
 			[
 				"html",
@@ -90,10 +182,6 @@
 			[
 				"bs",
 				"bs3-navbar\tbs3-navbar"
-			],
-			[
-				"me",
-				"meta\tTag"
 			],
 			[
 				"Faci",
@@ -180,10 +268,6 @@
 				"nav"
 			],
 			[
-				"bs3-input",
-				"bs3-input:search\tbs3-input-search"
-			],
-			[
 				"di",
 				"div\tTag"
 			],
@@ -214,10 +298,6 @@
 			[
 				"fun",
 				"function〔keyword〕"
-			],
-			[
-				"for",
-				"form\tTag"
 			],
 			[
 				"add",
@@ -318,10 +398,6 @@
 			[
 				"ti",
 				"title"
-			],
-			[
-				"text",
-				"text_module.title"
 			],
 			[
 				"te",
@@ -438,87 +514,50 @@
 			[
 				"pr",
 				"params"
-			],
-			[
-				"RE",
-				"REST_STATUS_OK"
-			],
-			[
-				"A",
-				"API_VERSION"
-			],
-			[
-				"cre",
-				"$createdBefore〔variable〕"
-			],
-			[
-				"array",
-				"array_merge"
-			],
-			[
-				"to",
-				"$total〔variable〕"
-			],
-			[
-				"RES",
-				"REST_STATUS_OK〔constant〕"
-			],
-			[
-				"chan",
-				"$changeBefore〔variable〕"
-			],
-			[
-				"chang",
-				"$changeAfter〔variable〕"
-			],
-			[
-				"v",
-				"$validator〔variable〕"
-			],
-			[
-				"crea",
-				"createdBefore"
-			],
-			[
-				"is_n",
-				"is_null〔function〕"
-			],
-			[
-				"pri",
-				"private〔keyword〕"
-			],
-			[
-				"dat",
-				"$data〔variable〕"
-			],
-			[
-				"vali",
-				"validator"
-			],
-			[
-				"update",
-				"updated_at"
-			],
-			[
-				"cra",
-				"created_at"
-			],
-			[
-				"upd",
-				"updated_at"
-			],
-			[
-				"us",
-				"user_id"
-			],
-			[
-				"up",
-				"updated_at"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "resources/views/admin/dropzone.blade.php",
+			"settings":
+			{
+				"buffer_size": 1084,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "routes/web.php",
+			"settings":
+			{
+				"buffer_size": 1179,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<?php\n\nRoute::get('/test',['as' => 'test1', function(){\n\techo \"xin chao\";\n}]);\nRoute::get('/goitest', function(){\n\treturn redirect()->route('test1');\n});\nRoute::get('response', function () {\n\t$file=\"./images/min/2017-01-13_b_2_stealth-wallpaper-1440x900.jpg\";\n   return response()->file($file);\n});\nview()->share('key', $value);\nview('name', $data)->render();",
+			"file": "routes/test.php",
+			"file_size": 311,
+			"file_write_time": 131287748239718777,
+			"settings":
+			{
+				"buffer_size": 359,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/Providers/RouteServiceProvider.php",
+			"settings":
+			{
+				"buffer_size": 1876,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -653,33 +692,80 @@
 		"/F/webphim/app",
 		"/F/webphim/app/Http",
 		"/F/webphim/app/Http/Controllers",
-		"/F/webphim/app/Http/Controllers/Auth",
+		"/F/webphim/app/Models",
+		"/F/webphim/app/Providers",
+		"/F/webphim/public",
+		"/F/webphim/public/images",
+		"/F/webphim/public/images/min",
+		"/F/webphim/public/js/dropzone/css",
+		"/F/webphim/resources",
+		"/F/webphim/resources/views",
+		"/F/webphim/resources/views/admin",
 		"/F/webphim/routes",
-		"/F/webphim/vendor",
-		"/F/webphim/vendor/laravel"
+		"/F/webphim/storage",
+		"/F/webphim/storage/app",
+		"/F/webphim/storage/app/images",
+		"/F/webphim/storage/app/images/min",
+		"/F/webphim/vendor/guzzlehttp",
+		"/F/webphim/vendor/guzzlehttp/guzzle",
+		"/F/webphim/vendor/guzzlehttp/guzzle/src",
+		"/F/webphim/vendor/laravel",
+		"/F/webphim/vendor/laravel/framework",
+		"/F/webphim/vendor/laravel/framework/src",
+		"/F/webphim/vendor/laravel/framework/src/Illuminate",
+		"/F/webphim/vendor/laravel/framework/src/Illuminate/Foundation",
+		"/F/webphim/vendor/laravel/framework/src/Illuminate/Http",
+		"/F/webphim/vendor/laravel/framework/src/Illuminate/Support",
+		"/F/webphim/vendor/laravel/framework/src/Illuminate/Support/Facades",
+		"/F/webphim/vendor/symfony",
+		"/F/webphim/vendor/symfony/http-foundation",
+		"/F/webphim/vendor/symfony/http-foundation/File"
 	],
 	"file_history":
 	[
+		"/F/webphim/storage/logs/laravel-2017-01-13.log",
+		"/F/webphim/app/Http/Controllers/DropzoneController.php",
+		"/F/webphim/app/Http/Middleware/VerifyCsrfToken.php",
+		"/F/webphim/vendor/guzzlehttp/guzzle/src/Middleware.php",
+		"/F/webphim/app/Http/Controllers/PhotoController.php",
+		"/F/webphim/vendor/laravel/framework/src/Illuminate/Support/Facades/URL.php",
+		"/F/webphim/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php",
+		"/F/webphim/public/js/dropzone/css/dropzone.css",
+		"/C/Users/Laptop88/Downloads/dropzone-master/test.sh",
+		"/F/webphim/public/jquery_upload/js/jquery.uploadfile.js",
+		"/F/webphim/public/jquery_upload/js/jquery.uploadfile.min.js",
+		"/F/webphim/public/js/dropzone/dropzone.js",
+		"/C/Users/Laptop88/Downloads/jQuery-File-Upload-9.14.2/index.html",
+		"/C/Users/Laptop88/Desktop/jquery-upload-file-master/php/upload.php",
+		"/F/webphim/config/app.php",
+		"/F/webphim/vendor/symfony/http-foundation/File/UploadedFile.php",
+		"/F/webphim/app/Http/Controllers/HomeController.php",
+		"/C/Users/Laptop88/AppData/Roaming/Sublime Text 3/Packages/DocBlockr/README.md",
 		"/F/webphim/routes/web.php",
+		"/F/webphim/storage/framework/views/d176132ce187d0944e1ca993f3f8752934d2067f.php",
+		"/F/webphim/storage/logs/laravel-2017-01-12.log",
+		"/F/webphim/public/images/min/Laravel.rar",
+		"/F/webphim/vendor/laravel/framework/src/Illuminate/Http/Request.php",
 		"/F/webphim/app/Http/Controllers/Auth/AuthController.php",
+		"/F/webphim/config/services.php",
+		"/F/webphim/resources/views/home.blade.php",
+		"/F/webphim/resources/views/admin/index.blade.php",
+		"/F/webphim/resources/views/auth/login.blade.php",
+		"/F/webphim/resources/views/layouts/app.blade.php",
+		"/F/webphim/vendor/laravel/framework/src/Illuminate/Auth/AuthManager.php",
+		"/F/webphim/routes/test.php",
 		"/F/webphim/app/Social.php",
+		"/F/webphim/app/User.php",
 		"/F/webphim/vendor/laravel/socialite/composer.json",
 		"/F/webphim/database/migrations/2017_01_10_083648_create_social_table.php",
-		"/F/webphim/config/services.php",
-		"/F/webphim/resources/views/auth/login.blade.php",
 		"/C/Users/Laptop88/Desktop/cacert.pem",
-		"/F/webphim/routes/test.php",
 		"/F/webphim/storage/logs/laravel-2017-01-10.log",
-		"/F/webphim/vendor/laravel/framework/src/Illuminate/Http/Request.php",
 		"/F/webphim/composer.json",
-		"/F/webphim/config/app.php",
-		"/F/webphim/resources/views/admin/index.blade.php",
 		"/F/webphim/resources/views/admin/home.blade.php",
 		"/F/webphim/app/Http/Controllers/Auth/HomeController.php",
 		"/F/webphim/resources/views/admin/login.blade.php",
 		"/F/webphim/vendor/laravel/socialite/src/Contracts/Factory.php",
 		"/F/webphim/xdebug.sublime-project",
-		"/F/webphim/resources/views/home.blade.php",
 		"/F/webphim/public/css/myweb.css",
 		"/F/webphim/storage/logs/laravel.log",
 		"/F/webphim/app/Providers/RouteServiceProvider.php",
@@ -687,7 +773,6 @@
 		"/F/webphim/app/Providers/BroadcastServiceProvider.php",
 		"/F/webphim/app/Http/Kernel.php",
 		"/F/webphim/vendor/laravel/framework/src/Illuminate/Routing/Router.php",
-		"/F/webphim/app/Http/Controllers/HomeController.php",
 		"/C/Users/Laptop88/AppData/Roaming/Sublime Text 3/Packages/SyncedSideBar/SyncedSideBar.sublime-settings",
 		"/C/Users/Laptop88/AppData/Roaming/Sublime Text 3/Packages/User/SyncedSideBar.sublime-settings",
 		"/C/Users/Laptop88/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/Default (Windows).sublime-keymap",
@@ -762,32 +847,10 @@
 		"/F/webphim/app/Http/Controllers/Auth/LoginController.php",
 		"/F/webphim/public/js/easypiechart/easypiechart-init.js",
 		"/F/webphim/public/js/ckeditor/ckeditor.js",
-		"/F/webphim/resources/views/layouts/app.blade.php",
 		"/C/Users/Laptop88/Desktop/1.php",
 		"/F/webphim/resources/views/admin/index1.blade.php",
-		"/F/webphim/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php",
 		"/F/webphim/app/Models/User.php",
-		"/F/webphim/app/User.php",
-		"/F/webphim/app/Http/Controllers/LoginController.php",
-		"/F/webphim/routes/LoginController.php",
-		"/F/webphim/public/css/login.css",
-		"/F/webphim/resources/assets/css/login.css",
-		"/C/Users/Laptop88/Downloads/bootstrap-3.1.1-dist/bootstrap-3.1.1-dist/js/bootstrap.js",
-		"/F/webphim/resources/assets/js/bootstrap.js",
-		"/F/webphim/db/migrations/20161226073909_create_comments_table.php",
-		"/F/webphim/db/migrations/20161226081109_create_actor_video_table.php",
-		"/F/webphim/db/migrations/20161226074837_create_slide_table.php",
-		"/F/webphim/db/migrations/20161226074200_create_country_table.php",
-		"/F/webphim/db/migrations/20161226074317_create_news_table.php",
-		"/F/webphim/db/migrations/20161226075232_create_video_table.php",
-		"/F/webphim/db/migrations/20161226080235_create_year_table.php",
-		"/F/webphim/db/migrations/20161226080645_create_year_video_table.php",
-		"/F/webphim/db/migrations/20161226080901_create_country_video_table.php",
-		"/F/webphim/db/migrations/20161226081018_create_author_video_table.php",
-		"/F/webphim/db/migrations/20161226073651_create_category_table.php",
-		"/F/webphim/db/migrations/20161226073536_create_author_table.php",
-		"/F/webphim/db/migrations/20161226072154_create_actor_table.php",
-		"/F/webphim/db/migrations/20161226041229_create_users_table.php"
+		"/F/webphim/app/Http/Controllers/LoginController.php"
 	],
 	"find":
 	{
@@ -808,6 +871,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"pd",
+			"Input",
+			"');\n",
 			"video",
 			"video11",
 			"log",
@@ -932,10 +998,7 @@
 			"lbl_gaming_device_group",
 			"module.lbl_gaming_device_group",
 			"lbl_gaming_device_group",
-			"gaming_device_group",
-			"Basic ",
-			"Commune",
-			"defect_group_option"
+			"gaming_device_group"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -955,8 +1018,138 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "resources/views/admin/dropzone.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1084,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								855,
+								855
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"color_scheme": "Packages/User/Color Highlighter/themes/RailsCastsColorScheme (SL).tmTheme",
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 336.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "routes/web.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1179,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								963,
+								963
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 504.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "routes/test.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 359,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								334,
+								340
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"file": "public/images/min/2017-01-13_b_2_stealth-wallpaper-1440x900.jpg",
+					"semi_transient": true,
+					"stack_index": 3,
+					"type": "image"
+				},
+				{
+					"buffer": 3,
+					"file": "app/Providers/RouteServiceProvider.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1876,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								895,
+								895
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 672.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -966,7 +1159,7 @@
 	},
 	"input":
 	{
-		"height": 45.0
+		"height": 48.0
 	},
 	"layout":
 	{
@@ -1012,6 +1205,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"d176132ce187d0944e1ca993f3f8752934d2067f.php",
+				"storage\\framework\\views\\d176132ce187d0944e1ca993f3f8752934d2067f.php"
+			],
 			[
 				"migrationsocial",
 				"database\\migrations\\2017_01_10_083648_create_social_table.php"
@@ -1519,10 +1716,6 @@
 			[
 				"companyli",
 				"resources\\views\\client\\company\\list.blade.php"
-			],
-			[
-				"comm",
-				"app\\Helpers\\CommonHelper.php"
 			]
 		],
 		"width": 0.0
@@ -1557,7 +1750,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 377.0,
+	"side_bar_width": 536.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
