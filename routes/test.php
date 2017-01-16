@@ -10,5 +10,5 @@ Route::get('response', function () {
 	$file="./images/min/2017-01-13_b_2_stealth-wallpaper-1440x900.jpg";
    return response()->file($file);
 });
-view()->share('key', $value);
-view('name', $data)->render();
+//view()->share('key', $value);
+//view('name', $data)->render();
